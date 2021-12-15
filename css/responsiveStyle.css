@@ -1,0 +1,22 @@
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 30px;
+    }
+
+    nav div {
+        flex-direction: column;
+    }
+
+    nav div a img {
+        width: 125px;
+        height: 125px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+}

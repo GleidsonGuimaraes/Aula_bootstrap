@@ -2,8 +2,8 @@ body {
     font: 20px arial, sans-serif;
 }
 
-#margin-logo{
-    margin-left: 20px;
+h2 {
+    font-weight: bold;
 }
 
 .margin {
@@ -11,8 +11,28 @@ body {
     padding-bottom: 50px;
 }
 
+.navbar {
+    justify-content: center;
+}
+
+nav div {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav div a img {
+    width: 70px;
+    height: 70px;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
 .margin-tittle {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .quem-somos {
